@@ -26,9 +26,10 @@ class MainActivity2 : AppCompatActivity() {
 
 
 
+
             // instanciamos la clase db helper
-            val mananger = ManangerDb(this)
-            mananger.insertData2(codigoD.toInt(), nombreP,apellidoP, telefonoP.toInt(),direccionP, ciudadP)
+            val mananger2 = ManangerDb(this)
+            mananger2.insertData2(codigoD.toInt(), nombreP,apellidoP, telefonoP.toInt(),direccionP, ciudadP)
 
 
         }
