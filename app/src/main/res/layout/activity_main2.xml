@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <EditText
+        android:id="@+id/editTextCodigoP"
+        android:layout_width="359dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="48dp"
+        android:hint="Ingrese código"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNombreP"
+        android:layout_width="359dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:hint="Ingrese su nombre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCodigoP" />
+
+    <EditText
+        android:id="@+id/editTextApellidoP"
+        android:layout_width="359dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:hint="Ingrese su apellido"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNombreP" />
+
+    <EditText
+        android:id="@+id/editTextTelefonoP"
+        android:layout_width="359dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:hint="Ingrese su # de telefono"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextApellidoP" />
+
+    <EditText
+        android:id="@+id/editTextDireccionP"
+        android:layout_width="359dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:hint="Ingrese su dirección"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTelefonoP" />
+
+    <EditText
+        android:id="@+id/editTextCiudadP"
+        android:layout_width="359dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="28dp"
+        android:hint="Ingrese su ciudad "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDireccionP" />
+
+    <Button
+        android:id="@+id/btnInsertar2"
+        android:layout_width="248dp"
+        android:layout_height="71dp"
+        android:text="Insertar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCiudadP" />
+
+    <Button
+        android:id="@+id/btnTabla2"
+        android:layout_width="202dp"
+        android:layout_height="60dp"
+        android:text="Tabla Datos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnInsertar2"
+        app:layout_constraintVertical_bias="0.251" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
